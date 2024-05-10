@@ -55,6 +55,4 @@ Before you begin, ensure you have the following:
 
 Now your Discord bot should be set up and running! 
 
-To test the bot, go to the server you added the bot to and type `/hello` in the chat. The bot should respond with `Hello, world!`.
-
-> **Note:** Please update this last step with the actual commands of your bot.
+To test the bot, go to the server you added the bot to and type `/ping` in the chat. The bot should respond with `Pong!`.

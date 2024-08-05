@@ -17,3 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: npm ci
+    - shell: bash
+      run: chmod +x ./myactionfile.sh
+    - shell: bash
+      run: ./myactionfile.sh

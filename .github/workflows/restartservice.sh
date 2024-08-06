@@ -6,6 +6,6 @@ pm2 save
 rm -rf ~/apps/soupbot
 mkdir ~/apps/soupbot
 cp -r ~/actions-runner/_work/soup-bot/soup-bot/* ~/apps/soupbot
-cd ~/apps/soupbot/soup-bot
+cd ~/apps/soupbot
 pm2 start index.js --name soupbot
 pm2 save

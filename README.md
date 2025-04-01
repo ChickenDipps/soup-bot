@@ -23,7 +23,8 @@ Before you begin, ensure you have the following:
 
 3. **Set Up OAuth2**
     - On the left side of the screen, click on the `OAuth2` tab.
-    - Under `SCOPES`, select `applications.commands` and `bot`.
+    - Under `SCOPES`, select `applications.commands`, and `bot`.
+    - Under `BOT PERMISSIONS`, select `administrator`
     - A URL will be generated under the `SCOPES` box. Copy this URL, open it in a new browser tab, and add the bot to a server.
 
 4. **Find Client ID**

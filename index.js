@@ -1,3 +1,5 @@
+const open = require('sqlite');
+const sqlite3 = require('sqlite3');
 const { Client, GatewayIntentBits, Collection } = require('discord.js');
 require('dotenv').config();
 const token = process.env.TOKEN;

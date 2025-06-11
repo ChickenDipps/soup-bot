@@ -1,7 +1,7 @@
 {
   "name": "soup-bot",
   "version": "1.0.0",
-  "description": "A moderation discord bot",
+  "description": "This guide provides step-by-step instructions on how to set up your Discord bot.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -10,9 +10,17 @@
     "deploy-global": "node deploy-commands-global.js",
     "deploy-local": "node deploy-commands-local.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChickenDipps/soup-bot.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChickenDipps/soup-bot/issues"
+  },
+  "homepage": "https://github.com/ChickenDipps/soup-bot#readme",
   "dependencies": {
     "3": "^2.1.0",
     "discord.js": "^14.15.2",

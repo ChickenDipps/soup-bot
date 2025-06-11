@@ -47,11 +47,14 @@ Before you begin, ensure you have the following:
 
 7. **Deploy Commands**
     - Open a terminal in your project directory.
-    - To add the commands to the specific server specified in `.env`, run the command `node deploy-commands-local.js`.
-    - Alternatively, to deploy the commands in every server the bot is in, run the command `node deploy-commands-global.js`.
+    - To add the commands to the specific server specified in `.env`, run the command `mpm run deploy-local`.
+    - Alternatively, to deploy the commands in every server the bot is in, run the command `npm run deploy-global`.
 
-8. **Start the Bot**
-    - In the terminal, run the command `node index.js` to start the bot.
+8. **Make The Database**
+    -In the terminal, run the command `npm run setup` to create the database.
+
+9. **Start the Bot**
+    - In the terminal, run the command `npm start` to start the bot.
 
 Now your Discord bot should be set up and running! 
 

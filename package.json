@@ -1,7 +1,7 @@
 {
   "name": "soup-bot",
   "version": "1.0.0",
-  "description": "This guide provides step-by-step instructions on how to set up your Discord bot.",
+  "description": "A Discord Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

@@ -2,8 +2,7 @@
 
 CREATE TABLE User(
   ID INTEGER PRIMARY KEY,
-  username VARCHAR(32) NOT NULL,
-  displayname VARCHAR(32) NOT NULL
+  username VARCHAR(32) NOT NULL
 );
 
 CREATE TABLE Server(

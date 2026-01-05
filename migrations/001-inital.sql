@@ -1,3 +1,0 @@
-CREATE TABLE servers (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(32) NOT NULL,
